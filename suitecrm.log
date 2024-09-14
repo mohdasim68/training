@@ -1,0 +1,176 @@
+Wed May 31 19:09:31 2023 [15720][-none-][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:09:59 2023 [15720][-none-][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Wed May 31 19:09:59 2023 [15720][-none-][FATAL] Email address save error
+Wed May 31 19:10:10 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:10:13 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:10:15 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:10:21 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_jim_id, boolean given
+Wed May 31 19:10:21 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:10:21 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_sarah_id, boolean given
+Wed May 31 19:10:22 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:10:22 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_sally_id, boolean given
+Wed May 31 19:10:22 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:10:22 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_max_id, boolean given
+Wed May 31 19:10:22 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:10:22 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_will_id, boolean given
+Wed May 31 19:10:22 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:10:23 2023 [15720][1][FATAL] User update error: Temp User is not retrieved at ID seed_chris_id, boolean given
+Wed May 31 19:10:23 2023 [15720][1][FATAL] Email address save error
+Wed May 31 19:12:03 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:12:46 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:13:28 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:13:33 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:14:15 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:14:21 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:14:23 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:15:04 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:15:04 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:15:09 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:15:09 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:15:39 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:15:39 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:16:07 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:16:07 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:16:26 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:16:26 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:17:06 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: Invalid address:  (to): 
+Wed May 31 19:17:11 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: Invalid address:  (to): 
+Wed May 31 19:17:16 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:17:16 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:19:02 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:19:02 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:20:01 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:20:01 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:20:41 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:20:41 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:21:09 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:21:09 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:21:16 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:21:16 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:21:26 2023 [15720][1][FATAL] Mysqli_query failed.
+Wed May 31 19:21:26 2023 [15720][1][FATAL]  Query Failed:  SELECT  board.id  FROM board  where board.deleted=0 LIMIT 0,21: MySQL error 1054: Unknown column 'board.deleted' in 'where clause'
+Wed May 31 19:36:01 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:36:10 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:36:12 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:44:28 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Wed May 31 19:44:33 2023 [15720][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jun  5 16:20:48 2023 [15720][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl:465 - styleChecked is not set
+Mon Jun  5 16:21:40 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Mon Jun  5 16:21:40 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Mon Jun  5 16:22:37 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Mon Jun  5 16:22:37 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Mon Jun  5 16:22:47 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.
+Mon Jun  5 16:22:47 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Mon Jun  5 16:22:47 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Mon Jun  5 16:22:58 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Mon Jun  5 16:22:58 2023 [15720][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not authenticate.
+Sat Jul 15 17:52:59 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:53:47 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:53:52 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:53:56 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:54:01 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:54:03 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 17:54:31 2023 [456][1][FATAL] SugarOutfitters_API::call(): HTTP Request failed: Array
+(
+    [url] => https://store.suitecrm.com/api/v1/key/validate?key=eeee&public_key=f51b0916ebd939af88b13e2f2a3ff8a5&user_count=7&group_user_count=0&admin_user_count=1&sugar_edition=CE&db_type=mysql&developerMode=false&host_name=localhost&package_scan=false&sugar_version=6.5.25&site_url=http%3A%2F%2Flocalhost%2Fsuite7&addon_version=v1.0&metadata=
+    [content_type] => application/json
+    [http_code] => 400
+    [header_size] => 432
+    [request_size] => 359
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.399743
+    [namelookup_time] => 0.253536
+    [connect_time] => 0.325088
+    [pretransfer_time] => 1.054357
+    [size_upload] => 0
+    [size_download] => 21
+    [speed_download] => 15
+    [speed_upload] => 0
+    [download_content_length] => 21
+    [upload_content_length] => -1
+    [starttransfer_time] => 1.399584
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2402:3a80:1fff:3f::34df:231f
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 2402:3a80:1ee4:fc28:4904:4821:6a58:4c0d
+    [local_port] => 62975
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 1049377
+    [connect_time_us] => 325088
+    [namelookup_time_us] => 253536
+    [pretransfer_time_us] => 1054357
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 1399584
+    [total_time_us] => 1399743
+)
+
+Sat Jul 15 17:54:31 2023 [456][1][FATAL] VIFieldsColorOutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key does not exist.
+)
+
+Sat Jul 15 18:00:31 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 18:00:36 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Sat Jul 15 18:00:38 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Jul 17 16:41:45 2023 [456][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb 26 16:26:57 2024 [3184][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb 26 16:30:21 2024 [3184][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb 26 16:30:28 2024 [3184][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Mon Feb 26 16:41:49 2024 [3184][-none-][FATAL] OutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key could not be found locally. Please go to the license configuration tool and enter your key.
+)
+
+Mon Feb 26 17:24:38 2024 [3184][1][FATAL] Exception handling in C:\xampp\htdocs\Suite7\include\MVC\Controller\SugarController.php:400
+Mon Feb 26 17:24:38 2024 [3184][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Feb 26 17:24:38 2024 [3184][1][FATAL] backtrace:
+#0 C:\xampp\htdocs\Suite7\include\MVC\View\views\view.detail.php(102): sugar_die('Error retrievin...')
+#1 C:\xampp\htdocs\Suite7\include\MVC\View\SugarView.php(226): ViewDetail->display()
+#2 C:\xampp\htdocs\Suite7\include\MVC\Controller\SugarController.php(435): SugarView->process()
+#3 C:\xampp\htdocs\Suite7\include\MVC\Controller\SugarController.php(375): SugarController->processView()
+#4 C:\xampp\htdocs\Suite7\include\MVC\SugarApplication.php(113): SugarController->execute()
+#5 C:\xampp\htdocs\Suite7\index.php(52): SugarApplication->execute()
+#6 {main}
+Wed Apr 17 16:42:16 2024 [15752][-none-][FATAL] OutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key could not be found locally. Please go to the license configuration tool and enter your key.
+)
+
+Wed Apr 17 16:42:16 2024 [15752][-none-][FATAL] OutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key could not be found locally. Please go to the license configuration tool and enter your key.
+)
+
+Wed Apr 24 18:15:26 2024 [13276][-none-][FATAL] OutfittersLicense::doValidate() failed: Array
+(
+    [success] => 
+    [result] => Key could not be found locally. Please go to the license configuration tool and enter your key.
+)
+
+Tue Aug 20 15:56:42 2024 [16144][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Aug 20 15:56:49 2024 [16144][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Tue Aug 20 15:56:54 2024 [16144][-none-][FATAL] SECURITY: User authentication for admin failed
+Tue Aug 20 15:56:54 2024 [16144][-none-][FATAL] FAILED LOGIN:attempts[1], ip[::1], username[admin]
+Tue Aug 20 15:58:37 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 16:01:01 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 16:01:09 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 16:01:13 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 16:01:16 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 17:42:24 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 17:42:29 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 17:42:32 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array
+Tue Aug 20 17:42:34 2024 [16144][1][FATAL] SugarBean::populateDefaultValues $field_defs should be an array

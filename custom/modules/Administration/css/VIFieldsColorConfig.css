@@ -1,0 +1,362 @@
+/*********************************************************************************
+ * This file is part of package Fields Color.
+ * 
+ * Author : Variance InfoTech PVT LTD (http://www.varianceinfotech.com)
+ * All rights (c) 2021 by Variance InfoTech PVT LTD
+ *
+ * This Version of Fields Color is licensed software and may only be used in 
+ * alignment with the License Agreement received with this Software.
+ * This Software is copyrighted and may not be further distributed without
+ * written consent of Variance InfoTech PVT LTD
+ * 
+ * You can contact via email at info@varianceinfotech.com
+ * 
+ ********************************************************************************/
+.updateLicense{
+  float: right;
+  margin-right: 5px;
+}
+
+.marginLeft{
+  margin-left: 20px;
+}
+
+.setvisibilityclass{
+  display : block;
+  margin-bottom : 10px;
+}
+
+.listViewEmpty {
+  padding: 1px-;
+  margin-bottom: 2px;
+}
+
+.progression-container {
+  margin: 0 0 8px 0;
+  padding:0;
+}
+
+ul.progression {
+  margin: 0;
+  padding:0;
+}
+
+.progression li {
+  background-color: #f08377;
+  border-radius: 0px;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  margin-right: 16px;
+  width: auto;
+  margin-top: 4px;
+}
+
+.progression li:nth-child(1)::before {
+  border: none transparent;
+}
+
+.progression li::before, .progression li::after {
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-left-color: #fff;
+  border-radius: 0px;
+}
+
+.progression li::before {
+  border-width: 16px;
+  margin-top: -7px;
+  margin-left: -20px;
+}
+
+.progression li::after {
+  border-left-color: #f08377;
+  border-width: 15px;
+  margin-top: -6px;
+  margin-left: 20px;
+}
+
+.progression li.selected {
+  background-color: #808f9c;
+  color: #fff;
+}
+
+.progression li.selected::after {
+  border-left-color: #808f9c;
+}
+
+.progression li:hover {
+  background-color: #f08377;
+  color: #fff;
+  cursor: pointer;
+}
+
+.progression li:hover::after, .progression li.selected:hover::after {
+  border-left-color: #808f9c;
+  color: #fff;
+}
+
+.progression li:last-child::after {
+  border-left-color: transparent;
+}
+
+.progression li div, .progression li div *{
+  color: white;
+  text-decoration: none;
+  padding-left: 8px;
+  display: inline;
+}
+
+.panel {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 0;
+  display: grid;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.panel-toolbar {
+  border-top: 1px solid rgb(211, 211, 211);
+  border-left: 1px solid rgb(211, 211, 211);
+  border-right: 1px solid rgb(211, 211, 211);
+  border-radius: 0;
+  display: flex;
+  background: #fff;
+}
+
+.template-panel {
+  margin-top: 8px;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px;
+}
+
+#wizard > table > tbody > tr > td  {
+  background: #fff;
+}
+
+.template-container {
+  width: 50%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 10px;
+}
+
+div:nth-of-type(odd).template-container {
+  border-right: 1px solid rgb(211, 211, 211);
+}
+
+.template-container-full {
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 10px;
+}
+
+.template-container-attachment {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.template-panel-container, .template-panel-container:after{clear:both}
+.template-panel-container {
+  background: #fff;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-group {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 0 11px 0 10px;
+}
+
+.button-group-seperator {
+  padding-top: 4px;
+  margin-left: 4px;
+  margin-right: 6px;
+  border-right: 1px solid rgb(211, 211, 211);
+  display: inline;
+  content: '&nbsp;'
+}
+
+.clear {
+  display: block;
+}
+
+.container {
+  width: auto;
+  padding-right: 0px !important;
+  padding-left:  0px !important;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+  background-color: #808f9c;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #f08377;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #f08377;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 25px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.panel-body {
+  margin-left: 5px;
+}
+
+.floatRight{
+  float: right;
+}
+
+.marginRight{
+  margin-right: 5px;
+}
+
+.addRecordTable{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.conditionBlockBorder{
+  border: 2px solid #b5adad;
+}
+
+#conditionBorder{
+  border: 1px solid #dddddd;
+  margin: 7px;
+}
+
+span.conditionMessage{
+  margin-left: 8px;
+  display: inline-table
+}
+
+#aowAllConditionLines > thead td,#aowAnyConditionLines > thead td {
+  background-color: #bfcad3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 7px;
+  color: #534d64;
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 5px #fff solid;
+}
+
+#aowAllConditionLines > tbody > tr, #aowAnyConditionLines > tbody > tr {
+  display: table-row;
+  background-color: #f5f5f5;
+  border-bottom: 5px #fff solid;
+}
+
+.allConditionButtonDiv, .anyConditionButtonDiv {
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-left: 8px;
+}
+
+.bulkAction {
+  border: 1px solid #d9dcde;
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  height: 40px;
+  text-transform: uppercase;
+}
+
+.bulkAction:hover, .bulkAction:focus {
+  background-color: #808f9c;
+  color: #fff;
+}
+
+ul#actionLinkTop > li.sugar_action_button {
+  background-color: #808f9c;
+  color: #fff;
+}
+
+#actionLinkTop .ddopen {
+  top: 23px!important;
+  width: 125px;
+}
+
+ul#actionLinkTop > li.sugar_action_button > ul.ddopen > li::after{
+  border: 1px solid #d9dcde;
+}
+
+div.content {
+  min-height: 0px !important;
+}
+
+.selectedModuleName {
+  font-weight: bold;
+}

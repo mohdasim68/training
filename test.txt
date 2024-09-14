@@ -1,0 +1,6 @@
+Hello World. Testing!SELECT * FROM  `leads` AS leads  LEFT JOIN email_addr_bean_rel AS emailrel on emailrel.bean_id=leads.id AND bean_module='Leads' INNER JOIN email_addresses AS email ON email.id=emailrel.email_address_id  WHERE ( (phone_mobile =  '' and phone_mobile is not null) OR email.email_address like '%asim@fynsis.com%') AND leads.deleted=0Array
+(
+    [name] => Mohammed Asim
+    [phone] => 
+    [email] => asim@fynsis.com
+)
